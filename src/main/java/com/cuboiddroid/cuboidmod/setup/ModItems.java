@@ -590,6 +590,10 @@ public class ModItems {
             "blackstone_quantum_singularity", () -> new QuantumSingularityItem(
                 new ResourceLocation(CuboidMod.MOD_ID, "blackstone")));
 
+    public static final RegistryObject<Item> CALCITE_QUANTUM_SINGULARITY = Registration.ITEMS.register(
+            "calcite_quantum_singularity", () -> new QuantumSingularityItem(
+                    new ResourceLocation(CuboidMod.MOD_ID, "calcite")));
+
     public static final RegistryObject<Item> CARBON_NANOTUBE_QUANTUM_SINGULARITY = Registration.ITEMS.register(
             "carbon_nanotube_quantum_singularity", () -> new QuantumSingularityItem(
                 new ResourceLocation(CuboidMod.MOD_ID, "carbon_nanotube")));
@@ -649,6 +653,10 @@ public class ModItems {
     public static final RegistryObject<Item> SILICA_DUST_QUANTUM_SINGULARITY = Registration.ITEMS.register(
             "silica_dust_quantum_singularity", () -> new QuantumSingularityItem(
                 new ResourceLocation(CuboidMod.MOD_ID, "silica_dust")));
+
+    public static final RegistryObject<Item> TUFF_QUANTUM_SINGULARITY = Registration.ITEMS.register(
+            "tuff_quantum_singularity", () -> new QuantumSingularityItem(
+                    new ResourceLocation(CuboidMod.MOD_ID, "tuff")));
 
     public static final RegistryObject<Item> OAK_LOG_QUANTUM_SINGULARITY = Registration.ITEMS.register(
             "oak_log_quantum_singularity", () -> new QuantumSingularityItem(

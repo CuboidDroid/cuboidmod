@@ -310,6 +310,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         tag(ModTags.Items.QUANTUM_SINGULARITIES_ANDESITE).add(ModItems.ANDESITE_QUANTUM_SINGULARITY.get());
         tag(ModTags.Items.QUANTUM_SINGULARITIES_BASALT).add(ModItems.BASALT_QUANTUM_SINGULARITY.get());
         tag(ModTags.Items.QUANTUM_SINGULARITIES_BLACKSTONE).add(ModItems.BLACKSTONE_QUANTUM_SINGULARITY.get());
+        tag(ModTags.Items.QUANTUM_SINGULARITIES_CALCITE).add(ModItems.CALCITE_QUANTUM_SINGULARITY.get());
         tag(ModTags.Items.QUANTUM_SINGULARITIES_CARBON_NANOTUBE).add(ModItems.CARBON_NANOTUBE_QUANTUM_SINGULARITY.get());
         tag(ModTags.Items.QUANTUM_SINGULARITIES_CELLULOSE).add(ModItems.CELLULOSE_QUANTUM_SINGULARITY.get());
         tag(ModTags.Items.QUANTUM_SINGULARITIES_CLAY).add(ModItems.CLAY_QUANTUM_SINGULARITY.get());
@@ -335,6 +336,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         tag(ModTags.Items.QUANTUM_SINGULARITIES_SAND).add(ModItems.SAND_QUANTUM_SINGULARITY.get());
         tag(ModTags.Items.QUANTUM_SINGULARITIES_SILICA_DUST).add(ModItems.SILICA_DUST_QUANTUM_SINGULARITY.get());
         tag(ModTags.Items.QUANTUM_SINGULARITIES_THATLDU).add(ModItems.THATLDU_QUANTUM_SINGULARITY.get());
+        tag(ModTags.Items.QUANTUM_SINGULARITIES_TUFF).add(ModItems.TUFF_QUANTUM_SINGULARITY.get());
         tag(ModTags.Items.QUANTUM_SINGULARITIES_WIKIDIUM).add(ModItems.WIKIDIUM_QUANTUM_SINGULARITY.get());
 
         tag(ModTags.Items.QUANTUM_SINGULARITIES_ENDSTONE).add(ModItems.ENDSTONE_QUANTUM_SINGULARITY.get());
@@ -366,6 +368,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 ModTags.Items.QUANTUM_SINGULARITIES_ANDESITE,
                 ModTags.Items.QUANTUM_SINGULARITIES_BASALT,
                 ModTags.Items.QUANTUM_SINGULARITIES_BLACKSTONE,
+                ModTags.Items.QUANTUM_SINGULARITIES_CALCITE,
                 ModTags.Items.QUANTUM_SINGULARITIES_CARBON_NANOTUBE,
                 ModTags.Items.QUANTUM_SINGULARITIES_CELLULOSE,
                 ModTags.Items.QUANTUM_SINGULARITIES_CLAY,
@@ -391,6 +394,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 ModTags.Items.QUANTUM_SINGULARITIES_SAND,
                 ModTags.Items.QUANTUM_SINGULARITIES_SILICA_DUST,
                 ModTags.Items.QUANTUM_SINGULARITIES_THATLDU,
+                ModTags.Items.QUANTUM_SINGULARITIES_TUFF,
                 ModTags.Items.QUANTUM_SINGULARITIES_WIKIDIUM,
 
                 ModTags.Items.QUANTUM_SINGULARITIES_ENDSTONE,

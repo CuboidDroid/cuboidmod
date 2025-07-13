@@ -17,6 +17,7 @@ public final class ColorHandler {
         event.register(new IColored.ItemColors(), ModItems.ANDESITE_QUANTUM_SINGULARITY.get());
         event.register(new IColored.ItemColors(), ModItems.BASALT_QUANTUM_SINGULARITY.get());
         event.register(new IColored.ItemColors(), ModItems.BLACKSTONE_QUANTUM_SINGULARITY.get());
+        event.register(new IColored.ItemColors(), ModItems.CALCITE_QUANTUM_SINGULARITY.get());
         event.register(new IColored.ItemColors(), ModItems.CARBON_NANOTUBE_QUANTUM_SINGULARITY.get());
         event.register(new IColored.ItemColors(), ModItems.CELLULOSE_QUANTUM_SINGULARITY.get());
         event.register(new IColored.ItemColors(), ModItems.CLAY_QUANTUM_SINGULARITY.get());
@@ -32,6 +33,7 @@ public final class ColorHandler {
         event.register(new IColored.ItemColors(), ModItems.LAPIS_QUANTUM_SINGULARITY.get());
         event.register(new IColored.ItemColors(), ModItems.NETHERRACK_QUANTUM_SINGULARITY.get());
         event.register(new IColored.ItemColors(), ModItems.ENDSTONE_QUANTUM_SINGULARITY.get());
+        event.register(new IColored.ItemColors(), ModItems.TUFF_QUANTUM_SINGULARITY.get());
 
         event.register(new IColored.ItemColors(), ModItems.OAK_LOG_QUANTUM_SINGULARITY.get());
         event.register(new IColored.ItemColors(), ModItems.ACACIA_LOG_QUANTUM_SINGULARITY.get());
