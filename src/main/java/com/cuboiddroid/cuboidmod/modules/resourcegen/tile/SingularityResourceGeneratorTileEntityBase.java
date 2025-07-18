@@ -223,13 +223,15 @@ public abstract class SingularityResourceGeneratorTileEntityBase extends BlockEn
                 // mark it dirty every time the item handler changes
 
                 ItemStack stack = getStackInSlot(slot);
-                if (isItemValid(slot, stack) && !stack.is(ModItems.QUANTUM_SINGULARITY.get())) {
-                    QuantumSingularityItem singularityItem = (QuantumSingularityItem) stack.getItem();
-                    ResourceLocation quantumIdentifier = singularityItem.getQuantumIdentifier(stack);
 
-                    ItemStack newStack = new ItemStack(ModItems.QUANTUM_SINGULARITY.get(), stack.getCount(), stack.getOrCreateTag());
-                    newStack.getOrCreateTag().putString(QuantumSingularityItem.QUANTUM_ID, quantumIdentifier.toString());
-                    setStackInSlot(slot, newStack);
+                if (isItemValid(slot, stack) &&
+                    !stack.is(ModItems.QUANTUM_SINGULARITY.get()) &&
+                    stack.getItem() instanceof QuantumSingularityItem singularityItem) {
+                        ResourceLocation quantumIdentifier = singularityItem.getQuantumIdentifier(stack);
+
+                        ItemStack newStack = new ItemStack(ModItems.QUANTUM_SINGULARITY.get(), stack.getCount(), stack.getOrCreateTag());
+                        newStack.getOrCreateTag().putString(QuantumSingularityItem.QUANTUM_ID, quantumIdentifier.toString());
+                        setStackInSlot(slot, newStack);
                 }
 
                 setChanged();

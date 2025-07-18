@@ -337,6 +337,9 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         tag(ModTags.Items.QUANTUM_SINGULARITIES_THATLDU).add(ModItems.THATLDU_QUANTUM_SINGULARITY.get());
         tag(ModTags.Items.QUANTUM_SINGULARITIES_WIKIDIUM).add(ModItems.WIKIDIUM_QUANTUM_SINGULARITY.get());
 
+        tag(ModTags.Items.QUANTUM_SINGULARITIES_TUFF).add(ModItems.TUFF_QUANTUM_SINGULARITY.get());
+        tag(ModTags.Items.QUANTUM_SINGULARITIES_CALCITE).add(ModItems.CALCITE_QUANTUM_SINGULARITY.get());
+
         tag(ModTags.Items.QUANTUM_SINGULARITIES_ENDSTONE).add(ModItems.ENDSTONE_QUANTUM_SINGULARITY.get());
         tag(ModTags.Items.QUANTUM_SINGULARITIES_NETHERRACK).add(ModItems.NETHERRACK_QUANTUM_SINGULARITY.get());
 
@@ -392,6 +395,10 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 ModTags.Items.QUANTUM_SINGULARITIES_SILICA_DUST,
                 ModTags.Items.QUANTUM_SINGULARITIES_THATLDU,
                 ModTags.Items.QUANTUM_SINGULARITIES_WIKIDIUM,
+
+                // xd
+                ModTags.Items.QUANTUM_SINGULARITIES_CALCITE,
+                ModTags.Items.QUANTUM_SINGULARITIES_TUFF,
 
                 ModTags.Items.QUANTUM_SINGULARITIES_ENDSTONE,
                 ModTags.Items.QUANTUM_SINGULARITIES_NETHERRACK,

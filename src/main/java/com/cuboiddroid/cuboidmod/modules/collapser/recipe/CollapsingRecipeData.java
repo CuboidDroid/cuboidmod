@@ -17,6 +17,7 @@ public class CollapsingRecipeData {
         // this.recipeInputTag = TagKey.create(Registries.ITEM, tagIdentifier);
         this.recipeCount = recipeCount;
 
-        this.usesTag = (this.recipeInput == this.recipeInputTag);
+        // https://github.com/CuboidDroid/cuboidmod/pull/16 thanks to Yoshi72
+        this.usesTag = (this.recipeInput == null && this.recipeInputTag != null);
     }
 }

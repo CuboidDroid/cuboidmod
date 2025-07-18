@@ -398,7 +398,15 @@ public final class QuantumSingularityRegistry {
 
             defaultSingularity("zinc", new int[] { 0xB5D1BA, 0x6F7262 })
                 .setRecipe("#forge:ingots/zinc", INGOT_RECIPE_AMOUNT)
-                .setProduction("exnihilosequentia:raw_zinc", ORE_WORK_TIME, ORE_POWER_OUTPUT)
+                .setProduction("exnihilosequentia:raw_zinc", ORE_WORK_TIME, ORE_POWER_OUTPUT),
+
+            defaultSingularity("tuff", new int[]{0x4d4a53, 0x3b3846})
+                .setRecipe("minecraft:tuff", NATUAL_ITEM_RECIPE_AMOUNT)
+                .setProduction("minecraft:tuff", STONE_WORK_TIME, STONE_POWER_OUTPUT),
+
+            defaultSingularity("calcite", new int[]{0x4d4a53, 0x3b3846})
+                .setRecipe("minecraft:calcite", NATUAL_ITEM_RECIPE_AMOUNT)
+                .setProduction("minecraft:calcite", STONE_WORK_TIME, STONE_POWER_OUTPUT)
         );
     }
 

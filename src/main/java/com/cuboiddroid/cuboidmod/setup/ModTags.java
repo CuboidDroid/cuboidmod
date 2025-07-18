@@ -254,6 +254,9 @@ public class ModTags {
         public static final TagKey<Item> QUANTUM_SINGULARITIES_THATLDU = mod("quantum_singularities/thatldu");
         public static final TagKey<Item> QUANTUM_SINGULARITIES_WIKIDIUM = mod("quantum_singularities/wikidium");
 
+        public static final TagKey<Item> QUANTUM_SINGULARITIES_TUFF = mod("quantum_singularities/tuff");
+        public static final TagKey<Item> QUANTUM_SINGULARITIES_CALCITE = mod("quantum_singularities/calcite");
+
         public static final TagKey<Item> QUANTUM_SINGULARITIES_ENDSTONE = mod("quantum_singularities/endstone");
         public static final TagKey<Item> QUANTUM_SINGULARITIES_NETHERRACK = mod("quantum_singularities/netherrack");
 

@@ -85,7 +85,10 @@ public class ModItemModelProvider extends ItemModelProvider {
                 "bronze",
                 "electrum",
                 "invar",
-                "platinum"
+                "platinum",
+
+                "tuff",
+                "calcite"
         };
 
         for (String name: singularities) {
